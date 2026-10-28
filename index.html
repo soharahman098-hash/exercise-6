@@ -19,22 +19,33 @@
       font-family: "Ledger", serif;
       font-weight: 400;
       font-style: normal;  
+      text-align: center;
       }
       
       h1 , h2 , ul {
       font-family: "Inter Tight", sans-serif;
       font-optical-sizing: auto;
       font-style: normal;
+      text-align: center;
       }
       
       h1 {
       font-weight: 600;
+
+      margin: 15px;
+      
       }
       
       h2 {
       font-weight: 500;
+      margin: 15px;
       }
       
+      footer{
+      background-color: lightgray;
+       margin: 15px;
+
+      }
       ul {
       list-style: none;
       margin: 0;
@@ -52,21 +63,41 @@
   color: black;
 }
 
-a:hover {
-  color: #b85c38;
-  background-color: #f5e6dc;
-}
+        a:hover {
+        color: gray;
+        background-color: lightpink;
+      }
       .container{
+      width: 800px;
+
       display: grid;
       padding: 15px;
-      margin: 5px;
+      margin: auto;
+      gap: 20px;
       grid-template-columns: 1fr 1fr;
+      }
+      
+      .grid-item{
+      background-color:lightpink;
+       padding: 20px;
+        margin: 5px;
+        text-align: center;
+        border-radius: 10px; 
+      }
+      .grid-item img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+
       }
     </style>
   </head>
   <body>
 
-    <h1>Greg’s Banh Mi</h1>
+ <h1 style='background-color: lightpink; font-family: "Brush Script MT", cursive; font-size: 80px;'>
+  Greg’s Banh Mi
+</h1>
 
     <nav> 
     <ul class = "navbar">
@@ -77,7 +108,7 @@ a:hover {
     </ul>
     </nav>
 
-    <h1>At Greg’s Banh Mi, we’re serving up the perfect marriage of French and Vietnamese culinary traditions&mdash;crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavours that'll make your taste buds sing.</h1>
+    <h1 style="font-size:20px;"> <i>At Greg’s Banh Mi </i>, we’re serving up the perfect marriage of French and Vietnamese culinary traditions&mdash;crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavours that'll make your taste buds sing.</h1>
     
 <div class="container">
   <div class= "grid-item">
